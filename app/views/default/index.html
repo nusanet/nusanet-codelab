@@ -106,16 +106,13 @@
     <header id="banner" {% if view.id != 'default' -%}down{%- else %}down$="[[_toBoolean(selectedFilter)]]"{%- endif %}>
       <div class="site-width">
         {% if view.id == 'default' %}
-        <h2 class="banner-title">Welcome to Codelabs!</h2>
+        <h2 class="banner-title">Nusanet Codelabs</h2>
         <div class="banner-description"
              data-filter-selected$="{% raw %}[[_toBoolean(selectedFilter)]]{% endraw %}">
           <p class="banner-info">
-            Codelabs provide a guided, tutorial, hands-on
-            coding experience. Most codelabs will step you through the process
-            of building a small application, or adding a new feature to an
-            existing application.
-            <br>
-            <a href="https://github.com/googlecodelabs/tools">Codelab tools on GitHub</a>
+            Nusanet Codelabs menyediakan materi yang dapat kamu pelajari dalam 
+            bentuk proses step by step yang mudah dipahami. Materi yang terdapat pada 
+            codelabs ini dapat digunakan sebagai bahan training, workshop, handbook, guide, dan lain lain.
           </p>
         {%- else -%}
           <div class="banner-description">
